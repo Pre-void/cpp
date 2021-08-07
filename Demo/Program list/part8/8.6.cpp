@@ -16,8 +16,8 @@ void set_pc(free_throws &ft);
 free_throws & accumulate(free_throws &target,const free_throws &source);
 
 int main(){
-    free_throws f1 = {"hhh",13,14};
-
+    free_throws one = {"Ifelsa Branch",13,14};
+    free_throws two = {"Andor Knott",10,16};
 
     system("pause");
     return 0;
