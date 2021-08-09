@@ -28,6 +28,6 @@ double pam(int lns){
 }
 
 void estimate(int lines,double (*pf)(int)){
-    cout << lines << "lines will take";
+    cout << lines << "lines will take" << endl;
     cout << (*pf)(lines) << "hour(s)\n";
-}
+} 
