@@ -35,7 +35,7 @@ int main(){
 
 string version1(const string & s1,const string & s2){
     string temp;
-    temp = s2+s1+s2;
+    temp = s2+s1+s2; 
     return temp;
 }
 

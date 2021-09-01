@@ -2,9 +2,14 @@
 #include<stdlib.h>
 using namespace std;
 int main(){
-    int arr[3] = {1,2,3};
-    int new_arr[3];
-    // new_arr = arr;
+    int a = 6;
+    int b = a;
+    cout << a << b <<endl;
+    cout << &a << &b <<endl;
+    a = 3;
+    cout << a <<b << endl;
+        cout << &a << &b <<endl;
+
     system("pause");
     return 0;  
 }
